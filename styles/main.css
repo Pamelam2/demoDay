@@ -1,0 +1,52 @@
+﻿#profile{
+    float: right;
+}
+
+#nav{
+    background-color:#fff;
+}
+
+#name{
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+}
+
+#aboutMe{
+    background: url(img/home-bg-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.section{
+    padding-top: 60px;
+    margin-bottom: 500px;
+}
+
+
+
+@media screen and (min-width:992px){
+    body{
+        max-width: 960px;
+        margin:auto;
+        padding: 25px;
+    }
+
+    nav{
+        overflow: hidden;
+        background-color: #fff;
+        top: 0;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+
+    nav#nav{
+        width: 80%;
+    }
+
+    nav a:active{
+        background-size: cover;
+      }
+
+    
+}
